@@ -1,0 +1,158 @@
+﻿/*====================*/
+/*=== Reset Styles ===*/
+/*====================*/
+html, body, div, span, applet, object, iframe,
+h1, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:11px;
+	font-family:Verdana ;
+	vertical-align:baseline;
+	line-height: 18px; 
+	
+}
+
+a:link {color: white;text-decoration: none;}
+a:visited {color: white;}
+a:hover {color: #00f1c1;}
+a:active {color: #00f1c1;}
+
+
+#bloc_page{
+ 
+	height: 100%;
+    margin: auto;
+}
+
+header{
+
+    position: fixed;
+    float: left;
+    width: 140px;
+	height: 600px;
+    border: 0px solid white;
+text-align: left;
+}
+
+body{
+    clear: both;
+    width: 900px;
+    background-image: url("img/bg_blue.jpg");
+    background-attachment: fixed;
+    margin: auto; 
+}
+
+
+
+iframe{ 
+    position:relative;
+    width:600px;
+    height:610px;
+    margin: auto;
+	top:20px;
+	left: 23px;
+}
+
+
+
+
+/*====================*/
+/*=== About ===*/
+/*====================*/
+
+#section{
+    width: 670px;
+    margin-left: 150px;
+    margin-top: 1%;
+}
+
+
+.presentation{
+    background:url(img/milieu_cadre.jpg)repeat;
+    clear: both;
+    width: 670px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	margin-top:-10px;
+	
+}
+
+
+
+
+element{ padding-right: 15px;}
+
+.imageflottante
+{
+    float: left;
+}
+
+.bas_cadre
+{
+    margin-bottom:20px;
+}
+
+
+strong{font-size:115%;}
+team{ padding-left:40%}
+
+
+/*====================*/
+/*=== Media - Video ===*/
+/*====================*/
+
+#video{ 
+    clear: both;
+    margin: auto;
+    width: 670px;
+    background:url(img/milieu_cadre.jpg) repeat;
+	margin-top:-10px;
+}
+
+object{
+    position:relative;
+    left:15px;
+    top:7px;
+	bottom:10px;
+}
+
+
+
+/*====================*/
+/*=== Media - Gallery===*/
+/*====================*/
+
+#content {
+    position:relative;
+    clear: both;
+    width: 670px;
+    margin: auto;
+    background:url(img/milieu_cadre.jpg) repeat;
+	margin-top:-10px;
+}
+
+.container { padding: 15px 0px 0px 23px;}
+
+#content p { width: 560px; margin-bottom: 0px; }
+
+#img-container	{ margin: 0; padding: 0; }
+#img-container p	{ width: 300px; margin: 10px; padding: 0 0 0px 0px; }
+#text-container	{ margin: 60px; padding: 50px; }
+
+
+
+/*====================*/
+/*=== Footer ===*/
+/*====================*/
+
+#footer { clear: both; width: 320px; margin: auto;}
+#footer p { clear: both; margin-top: 10px;}
+small{font-size:90%;}
